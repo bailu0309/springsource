@@ -8,10 +8,10 @@
     <!--spring1的配置文件-->
     <servlet>
         <servlet-name>spring1</servlet-name>
-        <servlet-class>spring_1.spring_core.servlet.DispatcherServlet</servlet-class>
+        <servlet-class>springmvc.framework.mvc.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:application1.properties</param-value>
+            <param-value>classpath:application.properties</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
